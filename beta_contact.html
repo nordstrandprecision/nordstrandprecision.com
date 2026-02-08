@@ -1,0 +1,184 @@
+<!DOCTYPE HTML>
+<!-- ~~~~~ Nordstrand Precision HTML ~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+            Established 2025
+								(◕ᴥ◕ʋ)
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~ Contact Page ~~~~~~~~~~~~~~~~
+-->
+<html>
+
+	<!-- Begin Head -->
+	<head>
+		<title>Nordstrand Precision</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Stylesheets w/ Reset -->
+    <link rel="stylesheet" href="assets/css/reset.css" /> 
+    <link rel="stylesheet" href="assets/css/nordstyle.css" />
+
+    <!-- Images & Fonts -->
+    <link rel="icon" type="image/x-icon" sizes="any" href="assets/images/logo_simpleglyph.png">
+
+		<!-- Javascript -->
+		<!-- <script src="assets/js/index.js" type="text/javascript"></script> -->
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+
+	<!-- Begin Body -->
+	<body class="is-preload">
+		<header>
+			
+			<!-- Nav Bar -->
+			<nav class="navBar">
+				<a class="navBarLogo" href="https://nordstrandprecision.com/index.html"><img class="navBarLogo" src="assets/images/logo.svg" alt="Nordstrand Precision Logo"></a>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="capabilities.html">Capabilities</a></li>
+					<li><a href="highlights.html">Highlights</a></li>
+					<li><a href="about.html">About</a></li>
+					<li class="endNavBar"><a href="contact.html">Contact</a></li>
+					<li class="navGraphicLink"><a href="https://www.instagram.com/nordstrand_precision/" target="_blank" rel="noopener noreferrer"><img src="assets\images\icon_instagram.svg" alt="Instagram"></a></li>
+					<li class="navGraphicLink"><a href="https://www.linkedin.com/company/nordstrand-precision/" target="_blank" rel="noopener noreferrer"><img src="assets\images\icon_linkedin.svg" alt="LinkedIn"></a></li>
+				</ul>
+			</nav>
+
+			<!-- Page Title Image -->
+			<section>
+				<div class="introContainer" id="contactImage">
+					<h1 class="introText"><strong>Contact</strong></h1>
+					<br><br>
+				</div>
+			</section>
+		</header>
+
+		<!-- Contact Information -->
+		<section class="style1">
+			<h1>Contact Information</h1>
+			<div class="contactBlock">
+				<img src="assets\images\icon_phone.svg" alt="Phone Icon">
+				<h3>Phone Number: <a href="tel:+17075802232">+1-(707)-580-2232</a></h3>
+			</div>
+			<br>
+			<div class="contactBlock">
+				<img src="assets\images\icon_email.svg" alt="Phone Icon">
+				<h3>Email:  <a href="mailto:general@nordstrandprecision.com">general@nordstrandprecision.com</a></h3>
+			</div>
+			<br>
+			<hr>
+		</section>
+
+		<!-- RFQ Form -->
+		<section class="style1">
+			<h1>Request For Quote</h1>
+			<br>
+			<form class="rfqForm" action="assets/php/rfqFormHandler.php" method="post">
+				<h4>Contact Information</h4>
+				<div class="rfqFormRow">
+					<div class="rfqFormGroup">
+						<label for="first-name" class="required">First Name</label>
+						<input id="first-name" type="text" name="first-name" class="input" maxlength="32" required value="test-firstname"/>
+					</div>
+					<div class="rfqFormGroup">
+						<label for="last-name" class="required">Last Name</label>
+						<input id="last-name" type="text" name="last-name" class="input" maxlength="32" required value="test-lastname">
+					</div>
+				</div>
+				<div class="rfqFormRow">
+					<div class="rfqFormGroup">
+						<label for="email" class="required">Email</label>
+						<input id="email" type="email" name="email" class="input" pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" maxlength="128" required value="test@test.com">
+					</div>
+					<div class="rfqFormRow nopad">
+						<div class="rfqFormGroup">
+							<label for="phone-number">Phone Number</label>
+							<input id="phone-number" type="tel" name="phone-number" class="input" placeholder="719-555-0123" maxlength="16" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" value="719-555-0123">
+						</div>
+						<div class="rfqFormGroup">
+							<label for="phone-number-ext">Extension</label>
+							<input id="phone-number-ext" type="number" name="phone-number-ext" class="input" placeholder="813" pattern="([1-9]|[1-9][0-9]|[1-9][0-9][0-9]|[1-9][0-9][0-9][0-9])" maxlength="5" value="813">
+						</div>
+					</div>
+				</div>
+				<div class="rfqFormRow">
+					<div class="rfqFormGroup">
+						<label for="company" class="required">Company</label>
+						<input id="company" type="text" name="company" class="input" maxlength="128" required value="test-company">
+					</div>
+					<div class="rfqFormGroup">
+						<label for="how-hear" class="required">How did you hear about us?</label>
+						<input id="how-hear" type="text" name="how-hear" class="input" placeholder="LinkedIn, Instagram, etc." maxlength="128" required value="test-linkedin">
+					</div>
+				</div>
+				<br>
+				<h4>Part Information</h4>
+				<div class="rfqFormRow">
+					<div class="rfqFormGroup">
+						<label for="quantity" class="required">Quantity per component</label>
+						<input id="quantity" type="text" name="quantity" class="input" placeholder="1, 10, 100" maxlength="128" required value="777">
+					</div>
+					<div class="rfqFormGroup">
+						<label for="material" class="required">Material per component</label>
+						<input id="material" type="text" name="material" class="input" placeholder="6061-T6 Aluminum, CDA353 Brass, 1040 Steel" maxlength="128" required value="test-material">
+					</div>
+				</div>
+				<div class="rfqFormRow">
+					<!-- <div class="rfqFormGroup">
+						<label for="desired-delivery" class="required">Desired delivery date</label>
+						<input type="date" name="desired-delivery" class="input" required value="01/01/2001">
+					</div> -->
+					<div class="rfqFormGroup">
+						<p>Regulations <em>(Check all that apply)</em></p><br>
+						<div class="rfqCheckBox">
+							<label for="iso9001"> ISO 9001</label>
+							<input type="checkbox" id="iso9001" name="iso9001" value="iso9001">
+						</div>
+						<div class="rfqCheckBox">
+							<label for="as9100"> AS9100D</label>
+							<input type="checkbox" id="as9100" name="as9100" value="as9100">
+						</div>
+						<div class="rfqCheckBox">
+							<label for="itar"> ITAR</label>
+							<input type="checkbox" id="itar" name="itar" value="itar">
+						</div>
+					</div>
+				</div>
+				<div class="rfqFormRow">
+					<div class="rfqFormGroup">
+						<label for="2DFiles">2D Files Upload (.pdf, .dwg, .dxf)</label>
+						<input id="2DFiles" type="file" multiple name="2DFiles" class="input" accept=".pdf, .dwg, .dxf">
+					</div>
+					<div class="rfqFormGroup">
+						<label for="2DFiles">3D Files Upload (.stp, .stl, .x_t, .sldprt, .igs)</label>
+						<input id="2DFiles" type="file" multiple name="2DFiles" class="input" accept=".stp, .stl, .x_t, .sldprt, .igs">
+					</div>
+				</div>
+				<div class="rfqTextArea">
+					<label for="company">What else should we know about your project?</label>
+					<textarea id="textarea" class="input" rows="5" cols="30" maxlength="500"></textarea>
+				</div>
+				<div class="rfqButtons">
+					<input type="reset" value="Reset">  
+					<input type="submit" value="Submit">
+				</div>
+			</form>
+		</section>
+		
+		<!-- Footer -->
+		<section class="footer">
+			<ul class="footerLeft">
+				<li><a href="t&c.html">Terms & Conditions</a></li>
+				<li><a href="siteuse.html">Site Use</a></li>
+			</ul>
+			<ul class="footerRight">
+				<li id="copyright">© <script>document.write(new Date().getFullYear())</script><noscript>2025</noscript> Nordstrand Precision, LLC</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li id="footerGraphicLink"><a href="https://www.instagram.com/nordstrand_precision/" target="_blank" rel="noopener noreferrer"><img src="assets\images\icon_instagram.svg" alt="Instagram"></a></li>
+				<li id="footerGraphicLink"><a href="https://www.linkedin.com/company/nordstrand-precision/" target="_blank" rel="noopener noreferrer"><img src="assets\images\icon_linkedin.svg" alt="LinkedIn"></a></li>
+			</ul>
+		</section>
+	</body>
+</html>

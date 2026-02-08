@@ -7,7 +7,10 @@
    xml:space="preserve"
    id="SVGRoot"
    inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
-   sodipodi:docname="logo_with_text.svg"
+   sodipodi:docname="logo_glyphconstruction.svg"
+   inkscape:export-filename="logo_glyphconstruction.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -22,14 +25,14 @@
    inkscape:deskcolor="#a9a9a9"
    id="namedview1"
    inkscape:zoom="3.3007745"
-   inkscape:cx="393.99844"
-   inkscape:cy="413.69079"
-   inkscape:window-width="2560"
-   inkscape:window-height="1369"
-   inkscape:window-x="2552"
-   inkscape:window-y="-8"
-   inkscape:window-maximized="1"
-   inkscape:current-layer="g36-1"
+   inkscape:cx="90.73628"
+   inkscape:cy="59.077044"
+   inkscape:window-width="1278"
+   inkscape:window-height="1360"
+   inkscape:window-x="2553"
+   inkscape:window-y="0"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="SVGRoot"
    showgrid="false"
    inkscape:lockguides="false"
    showguides="false"
@@ -431,12 +434,12 @@ g.prefab path {
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5294px;font-family:Orbit;-inkscape-font-specification:'Orbit, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect24);display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.054515;stroke-dasharray:none;stroke-opacity:1"
          transform="matrix(9.11735,0,0,9.11735,-4943.063,-3123.0164)"><tspan
            x="625"
-           y="335.58205"
-           id="tspan4"><tspan
+           y="334.60629"
+           id="tspan15"><tspan
              style="letter-spacing:-0.87224px"
-             id="tspan2">nordstrand</tspan><tspan
-             dx="-0.87224007"
-             id="tspan3">
+             id="tspan1">nordstrand</tspan><tspan
+             dx="-0.8722415"
+             id="tspan5">
 </tspan></tspan></text><text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;font-family:Orbit;-inkscape-font-specification:'Orbit, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:-7.95252px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.497032;stroke-dasharray:none;stroke-opacity:1"
@@ -486,7 +489,7 @@ g.prefab path {
          transform="matrix(9.11735,0,0,9.11735,-4943.063,-3127.9664)"><tspan
            x="625"
            y="334.6182"
-           id="tspan7">nordstrand
+           id="tspan16">nordstrand
 </tspan></text></g><g
        id="g27"
        style="display:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
@@ -508,7 +511,7 @@ g.prefab path {
          transform="matrix(9.11735,0,0,9.11735,-4943.063,-3127.9664)"><tspan
            x="625"
            y="334.6182"
-           id="tspan8">Nordstrand
+           id="tspan17">Nordstrand
 </tspan></text></g><rect
        style="fill:#000000;stroke-width:9.49669;stroke-miterlimit:4.3;paint-order:stroke markers fill"
        id="rect1"
@@ -592,12 +595,12 @@ g.prefab path {
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5294px;font-family:Orbit;-inkscape-font-specification:'Orbit, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect48);display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.054515;stroke-dasharray:none;stroke-opacity:1"
          transform="matrix(9.11735,0,0,9.11735,-4943.063,-3123.0164)"><tspan
            x="625"
-           y="335.58205"
-           id="tspan11"><tspan
+           y="334.60629"
+           id="tspan20"><tspan
              style="letter-spacing:-0.87224px"
-             id="tspan9">nordstrand</tspan><tspan
-             dx="-0.87224007"
-             id="tspan10">
+             id="tspan18">nordstrand</tspan><tspan
+             dx="-0.8722415"
+             id="tspan19">
 </tspan></tspan></text><text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;font-family:Orbit;-inkscape-font-specification:'Orbit, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:-7.95252px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.497032;stroke-dasharray:none;stroke-opacity:1"
@@ -648,7 +651,7 @@ g.prefab path {
          transform="matrix(9.11735,0,0,9.11735,-4943.063,-3127.9664)"><tspan
            x="625"
            y="334.6182"
-           id="tspan12">nordstrand
+           id="tspan21">nordstrand
 </tspan></text></g><g
        id="g45"
        style="display:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
@@ -670,7 +673,7 @@ g.prefab path {
          transform="matrix(9.11735,0,0,9.11735,-4943.063,-3127.9664)"><tspan
            x="625"
            y="334.6182"
-           id="tspan13">Nordstrand
+           id="tspan22">Nordstrand
 </tspan></text></g><rect
        style="fill:#000000;stroke-width:9.49669;stroke-miterlimit:4.3;paint-order:stroke markers fill"
        id="rect45"
@@ -754,7 +757,7 @@ g.prefab path {
            transform="matrix(9.11735,0,0,9.11735,-4943.063,-3127.9664)"><tspan
              x="625"
              y="334.6182"
-             id="tspan14">nordstrand
+             id="tspan24">nordstrand
 </tspan></text></g><rect
          style="fill:#000000;fill-opacity:1;stroke-width:9.49669;stroke-miterlimit:4.3;paint-order:stroke markers fill"
          id="rect1-2"
@@ -783,7 +786,7 @@ g.prefab path {
      inkscape:export-filename="..\Website\nordstrandprecision.com\assets\images\logo.svg"
      inkscape:export-xdpi="96"
      inkscape:export-ydpi="96"><ellipse
-       style="display:inline;fill:#d9d9d9;fill-opacity:1;stroke:#ffffff;stroke-width:0.444876;stroke-miterlimit:4.3;paint-order:stroke markers fill"
+       style="display:none;fill:#d9d9d9;fill-opacity:1;stroke:#ffffff;stroke-width:0.444876;stroke-miterlimit:4.3;paint-order:stroke markers fill"
        id="path56"
        cx="369.28568"
        cy="419.75003"
@@ -797,4 +800,10 @@ g.prefab path {
        sodipodi:nodetypes="cccccccccccccccccccccccccccc"
        inkscape:path-effect="#path-effect26-92-5"
        inkscape:original-d="m 1280,389.62793 -215.0167,111.07829 182.4384,95.20949 V 734.1443 l -162.8915,-79.34148 v 34.02967 l 144.2484,70.26076 -144.2484,70.26075 v 34.02967 L 1247.4217,784.0422 V 1002.162 H 1280 V 784.04227 l 162.8915,79.34147 V 829.35407 L 1298.643,759.09325 1462.4385,672.9644 1280,577.75434 V 419.611 Z m -32.5783,49.89796 V 561.88605 L 1121.8164,500.70622 Z M 1280,611.78401 1405.6054,672.9644 c 0,0 -98.1842,47.82342 -125.6054,61.1799 z"
-       inkscape:label="NP, Sharp Black" /></g></g></svg>
+       inkscape:label="NP, Sharp Black" /></g><path
+     style="fill:#ae7c1e;stroke-width:0.260343;fill-opacity:1"
+     d="m 359.28411,361.8911 c -1.2443,-1.57143 -14.49972,-27.24068 -15.08616,-29.21444 -1.19571,-4.02445 2.21851,-6.35623 7.74405,-5.28893 1.3242,0.25578 5.46167,1.03181 9.19438,1.72451 7.75443,1.43903 7.16002,1.26193 6.41674,1.91173 -0.54227,0.47408 -0.52761,0.591 0.26627,2.12427 4.29793,8.30071 12.7532,14.62158 23.09132,17.26228 2.81007,0.71779 2.7547,0.72566 3.27903,-0.46646 0.23467,-0.53356 0.48166,-0.97837 0.54884,-0.98847 0.23208,-0.0349 9.46902,18.31857 9.62719,19.12885 0.34924,1.78902 -0.90685,4.27382 -2.57562,5.09511 -1.28699,0.63341 -1.47144,0.61051 -14.23559,-1.76697 -2.50377,-0.46636 -7.75932,-1.43578 -11.67899,-2.15427 -10.32923,-1.89338 -13.30265,-3.21369 -16.59146,-7.36721 z m 21.88427,-26.96588 c -2.86427,-2.42226 -7.10641,-7.57303 -7.3005,-8.86418 -0.0443,-0.29455 3.35676,-3.38161 9.21355,-8.36296 2.11735,-1.80086 2.02216,-1.80078 2.92561,-0.003 2.52468,5.02508 8.79028,9.40626 15.40217,10.76987 l 2.12245,0.4377 -1.18608,2.73294 c -4.08812,9.41993 -4.91171,11.15026 -5.3181,11.17326 -2.79582,0.1582 -11.41754,-4.12793 -15.8591,-7.88409 z m 12.60107,-19.90789 c -1.6269,-1.72754 -2.90025,-3.69915 -2.68051,-4.15046 0.57365,-1.17821 13.6862,-12.05263 14.58095,-12.09219 2.96392,-0.13108 7.66551,3.4356 7.98796,6.05971 0.20968,1.7063 -6.76739,17.19114 -7.61448,16.89958 -0.2484,-0.0855 -0.9933,-0.30942 -1.65535,-0.49763 -3.96296,-1.12653 -8.11017,-3.55544 -10.61857,-6.21901 z"
+     id="traffic_cone"
+     inkscape:export-filename="logo_constructionglyph.svg"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96" /></g></svg>

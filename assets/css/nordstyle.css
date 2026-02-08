@@ -128,9 +128,18 @@ body, input, select, textarea {
 	line-height: var(--lh-m);
 }
 
-p, li, button {
+p, li {
 	/* margin: 0 0 2em 0; */
-	padding: 0 1rem;
+	padding: 0 0 .5rem;
+	font-family: 'Archivo', Helvetica, sans-serif;
+	font-weight: 400;
+	font-size: var(--font-m);
+	line-height: var(--lh-m);
+}
+
+button {
+	margin: 0;
+	/* padding: 0 0 .5rem; */
 	font-family: 'Archivo', Helvetica, sans-serif;
 	font-weight: 400;
 	font-size: var(--font-m);
@@ -177,7 +186,8 @@ em, i {
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
 	color: inherit;
-	margin: 0 1rem .5em;
+	margin: 0 0 .5em;
+	/* margin: 0 1rem .5em; */
 	font-family: 'IBMPlexSans', Helvetica, sans-serif;
 }
 
@@ -353,12 +363,16 @@ a:hover {
 	color: var(--neutral-900);
 }
 
+.style1 a {
+	color: var(--brand-blue-600);
+}
+
 .style1 a:hover {
 	color: var(--brand-silver-700)
 }
 
 .style1 h2, .style2 h2, .style3 h2 {
-	margin: 0;
+	/* margin: 0; */
 }
 
 .style1 hr {
@@ -370,6 +384,10 @@ a:hover {
 .style2 {
 	background-color: var(--neutral-900);
 	color: var(--neutral-100);
+}
+
+.style2 a {
+	color: var(--brand-blue-100)
 }
 
 .style2 a:hover {
@@ -463,6 +481,12 @@ a:hover {
 	margin-right: auto;
 	text-align: center;
 	/* opacity: 60%; */
+}
+
+/* Video Section Temp Image */
+/* Hero Image */
+#indexImage {
+	background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("../images/stock_aerospace.jpg");
 }
 
 .centeredLogo {
@@ -677,6 +701,7 @@ a:hover {
 /* Industries Grid */
 .industriesGrid {
 	text-align: center;
+	padding: 0 15%;
 }
 
 .industriesGrid ul {
@@ -701,16 +726,19 @@ a:hover {
 	flex-direction: row;
 	align-items: center;
 	padding: var(--font-xl);
+	margin: -40px 0; 
 }
 
 .industriesGrid img {
-	max-width: 30%;
-	height: 300px;
+	/* max-width: 30%; */
+	width: 250px;
+	height: 250px;
+	clip-path: circle()
 }
 
 .industriesGrid ul h2 {
 	height: auto;
-	padding: var(--font-xl);
+	padding: 0 var(--font-xxl);
 }
 
 /* ---------------- Section: Highlights ---------------- */
